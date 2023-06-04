@@ -8,20 +8,26 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "fiction",
+    categoryName: "Performance",
     description:
-      "literature in the form of prose, especially novels, that describes imaginary events and people",
+      "These sneakers are designed for specific sports activities, such as running, basketball, soccer, tennis, and more.",
   },
   {
     _id: uuid(),
-    categoryName: "non-fiction",
+    categoryName: "High-Top",
     description:
-      "Non-fiction is writing that gives information or describes real events, rather than telling a story.",
+      "High-top sneakers feature a higher upper that extends above the ankle, providing additional support and a distinctive look.",
   },
   {
     _id: uuid(),
-    categoryName: "horror",
+    categoryName: "Low-Top",
     description:
-      "Meant to cause discomfort and fear for both the character and readers, horror writers often make use of supernatural and paranormal elements in morbid stories that are sometimes a little too realistic.",
+      "Low-top sneakers have a lower cut that sits below the ankle, offering a more casual and streamlined appearance.",
+  },
+  {
+    _id: uuid(),
+    categoryName: "Skateboards",
+    description:
+      "Skateboard sneakers provide skaters with improved durability, grip, and flexibility for a better skating experience.",
   },
 ];
