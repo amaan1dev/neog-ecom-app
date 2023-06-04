@@ -1,0 +1,37 @@
+
+
+
+.ProductCardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .ProductCard {
+    /* background-color: #f5f5f5; */
+    padding: 20px;
+    border: 1px solid rgb(213, 213, 210);
+    color: black;
+  }
+  
+  .ProductCard img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .ProductCardDetail{
+    margin: auto;
+    max-width: fit-content;
+    padding: 20px;
+    border: 1px solid rgb(213, 213, 210);
+
+  }
+
+  .ProductCardDetail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+.item-card{
+  color: black;
+}
