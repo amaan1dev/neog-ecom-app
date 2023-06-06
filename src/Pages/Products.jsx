@@ -11,7 +11,6 @@ export const Products = () => {
   return (
     <>
       <Nav />
-      <h1>Products Listing Page here all components of product page will be rendered</h1>
       <FilterProducts />
       <ProductCard />
       <Footer />

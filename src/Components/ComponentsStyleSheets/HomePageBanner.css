@@ -1,0 +1,14 @@
+.banner-container{
+    margin: 2.5rem;
+   
+}
+
+
+.main-banner {
+    background-image: url('https://cdn.shopify.com/s/files/1/0659/0722/8923/files/DUNK_HIGH_1.png?v=1685363555');
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+
+  }
+  

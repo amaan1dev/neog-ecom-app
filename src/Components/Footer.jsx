@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Footer.css";
+import "../Components/ComponentsStyleSheets/Footer.css";
 
 const FooterBar = () => {
   return (
     <footer className="footer">
-      {/* <NavLink to="/" className="footer-link">
+      <NavLink to="/" className="footer-link">
         Home
       </NavLink>
       <NavLink to="/products" className="footer-link">
@@ -19,7 +19,7 @@ const FooterBar = () => {
       </NavLink>
       <NavLink to="/account" className="footer-link">
         Login/Logout
-      </NavLink> */}
+      </NavLink>
     </footer>
   );
 };

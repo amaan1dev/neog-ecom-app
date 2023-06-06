@@ -7,6 +7,7 @@ import { WishList } from "./Pages/Wishlist";
 import {Cart} from "./Pages/Cart"
 import { Account } from "./Pages/Account";
 import { ProductDetails } from "./Components/ProductDetails"
+import "./global.css"
 
 function App() {
   return (

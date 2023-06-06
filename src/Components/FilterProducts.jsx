@@ -6,7 +6,7 @@ export const FilterProducts = () => {
   const [selectedCategories, setSelectedCategories] = useState([]);
   const [selectedRating, setSelectedRating] = useState("");
 
-  const categories = ["Category", "Performance", "High-Top", "Low-Top", "Skateboards"];
+  const categories = ["Performance", "High-Top", "Low-Top", "Skateboards"];
 
   const ratings = ["1 Star & above", "2 Stars & above", "3 Stars & above", "4 Stars & above"];
 
@@ -29,7 +29,6 @@ export const FilterProducts = () => {
   };
   return (
     <>
-      <h2>here all the filters will</h2>
       <div className="price-container" style={{border: "1px solid gray", display: "inline-block", margin: "1rem 1rem 1rem 1rem", padding:"0.5rem"}}>
       <h4>Price Range: {sliderValue}</h4>
       <input

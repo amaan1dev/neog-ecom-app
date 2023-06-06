@@ -12,7 +12,7 @@ export const products = [
     _id: uuid(),
     title: "AIR MAX 90 ",
     seller: "Nike",
-    price: "₹ 10,795.00",
+    price: "10,795.00",
     categoryName: "Performance",
     rating: "4"
   },
@@ -22,7 +22,7 @@ export const products = [
     _id: uuid(),
     title: "VANS OLD SKOOL",
     seller: "Vans",
-    price: "₹ 5,999.00",
+    price: "5,999.00",
     categoryName: "Low-Top",
     rating: "3"
   },
@@ -32,7 +32,7 @@ export const products = [
     _id: uuid(),
     title: "CONVERSE CHUCK HIGH TOP",
     seller: "Converse",
-    price: "₹ 4,999.00",
+    price: "4,999.00",
     categoryName: "High-Top",
     rating: "3"
   },
@@ -42,7 +42,7 @@ export const products = [
     _id: uuid(),
     title: "ADIDAS ULTRABOOST DNA",
     seller: "Adidas",
-    price: "₹ 14,999.00",
+    price: "14,999.00",
     categoryName: "Performance",
     rating: "2"
   },
@@ -52,7 +52,7 @@ export const products = [
     _id: uuid(),
     title: "ACG AIR MOWABB TRAILS",
     seller: "Nike",
-    price: "₹ 6,999.00",
+    price: "6,999.00",
     categoryName: "Skateboards",
     rating: "5"
   },
@@ -62,7 +62,7 @@ export const products = [
     _id: uuid(),
     title: "AIR JORDAN 3 RETRO",
     seller: "Nike",
-    price: "₹ 13,499.00",
+    price: "13,499.00",
     categoryName: "High-Top",
     rating: "2"
   },
@@ -71,7 +71,7 @@ export const products = [
     _id: uuid(),
     title: "OLD SKOOL",
     seller: "Vans",
-    price: "₹ 5,499.00",
+    price: "5,499.00",
     categoryName: "High-Top",
     rating: "4"
   },
@@ -80,7 +80,7 @@ export const products = [
     _id: uuid(),
     title: "SUEDE 2 STAPLE",
     seller: "Puma",
-    price: "₹ 3,999.00",
+    price: "3,999.00",
     categoryName: "Low-Top",
     rating: "4"
   },
@@ -89,7 +89,7 @@ export const products = [
     _id: uuid(),
     title: "CLUB C REVENGE 'NAVY'",
     seller: "Reebok",
-    price: "₹ 4,599.00",
+    price: "4,599.00",
     categoryName: "Low-Top",
     rating: "3"
 
@@ -99,7 +99,7 @@ export const products = [
     _id: uuid(),
     title: "STAN SMITH LUX 'WHITE'",
     seller: "Adidas",
-    price: "₹ 6,499.00",
+    price: "6,499.00",
     categoryName: "Low-Top",
     rating: "2"
   },
@@ -109,7 +109,7 @@ export const products = [
     _id: uuid(),
     title: "NIKE AIR FORCE 1",
     seller: "Nike",
-    price: "₹ 8,999.00",
+    price: "8,999.00",
     categoryName: "High-Top",
     rating: "5"
   },
@@ -118,7 +118,7 @@ export const products = [
     _id: uuid(),
     title: "CHUCK 70 CANVAS",
     seller: "Converse",
-    price: "₹ 4,299.00",
+    price: "4,299.00",
     categoryName: "Low-Top",
     rating: "2"
   },
@@ -127,7 +127,7 @@ export const products = [
     _id: uuid(),
     title: "POKÉMON RS-X PIKACHU",
     seller: "Puma",
-    price: "₹ 7,199.00",
+    price: "7,199.00",
     categoryName: "Performance",
     rating: "1"
   },
@@ -136,7 +136,7 @@ export const products = [
     _id: uuid(),
     title: "HU NMD ANIMAL PRINT",
     seller: "Adidas",
-    price: "₹ 9,999.00",
+    price: "9,999.00",
     categoryName: "Performance",
     rating: "3"
   },
@@ -145,7 +145,7 @@ export const products = [
     _id: uuid(),
     title: "BLAZER LOW '77 VINTAGE",
     seller: "Nike",
-    price: "₹ 7,999.00",
+    price: "7,999.00",
     categoryName: "Skateboards",
     rating: "5"
   },
@@ -154,7 +154,7 @@ export const products = [
     _id: uuid(),
     title: "CHECKERBOARD SLIP-ON",
     seller: "Vans",
-    price: "₹ 5,999.00",
+    price: "5,999.00",
     categoryName: "Skateboards",
     rating: "3"
   },
@@ -163,7 +163,7 @@ export const products = [
     _id: uuid(),
     title: "RETRO COURT SK8-HI",
     seller: "Vans",
-    price: "₹ 6,499.00",
+    price: "6,499.00",
     categoryName: "Skateboards",
     rating: "4"
   },
@@ -172,7 +172,7 @@ export const products = [
     _id: uuid(),
     title: "RUN STARMOTION",
     seller: "Converse",
-    price: "₹ 5,299.00",
+    price: "5,299.00",
     categoryName: "Skateboards",
     rating: "2"
   },
@@ -182,7 +182,7 @@ export const products = [
     _id: uuid(),
     title: "CONVERSE CHUCK 70 OX",
     seller: "Converse",
-    price: "₹ 4,799.00",
+    price: "4,799.00",
     categoryName: "Converse",
     rating: "5"
   },
@@ -191,7 +191,7 @@ export const products = [
     _id: uuid(),
     title: "NRGY PEACH",
     seller: "Puma",
-    price: "₹ 4,199.00",
+    price: "4,199.00",
     categoryName: "Converse",
     rating: "2"
   }
