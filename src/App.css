@@ -1,20 +1,24 @@
 *{
   text-align: center;
+  
 }
+
+
+
 
 nav{
   display: flex;
   justify-content:flex-end;
   align-items: center;
   min-height: 10vh;
-  background: rgb(65, 64, 64);
-  color: white;
+  background: white;
+  color: rgb(41, 40, 40);
 
 
 }
 
 .logo{
-  color: white;
+  color: rgb(22, 22, 22);
 border: 0.5px solid white;
 border-radius: 9px;
 padding: 2px 4px 1px 4px;
@@ -25,7 +29,11 @@ margin-left: 2rem;
 
 .link-active {
   color: black;
-  background: rgb(111, 110, 110);
+  background: rgb(255, 255, 255);
   font-weight: 500;
 }
 
+
+.home-container {
+  min-height: 100vh;
+}
