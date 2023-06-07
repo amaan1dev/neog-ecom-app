@@ -1,57 +1,63 @@
-
-
-
 .ProductCardContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .ProductCard {
-    background-color: #ebe9e9;
-    padding: 20px;
-    border: 1px solid rgb(213, 213, 210);
-    color: black;
-  }
-  
-  .ProductCard img {
-    max-width: 100%;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-  .ProductCard:hover img {
-    transform: scale(1.15); 
-    box-shadow: 0 0 10px rgba(41, 40, 40, 0.3);
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
 
-  .ProductCardDetail{
-    margin: auto;
-    margin-bottom: 3.5rem;
-    max-width: 50vh;
-    padding: 2rem;
-    border: 1px solid rgb(213, 213, 210);
+.ProductCard {
+  background-color: #ebe9e9;
+  padding: 20px;
+  border: 1px solid rgb(213, 213, 210);
+  color: black;
+}
 
-  }
+.ProductCard img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
 
-  .ProductCardDetail img {
-    max-width: 100%;
-    height: auto;
-  }
+.ProductCard:hover img {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(41, 40, 40, 0.3);
+}
 
-  
+.ProductCardDetail {
+  margin: auto;
+  margin-bottom: 3.5rem;
+  max-width: 50vh;
+  padding: 2rem;
+  border: 1px solid rgb(213, 213, 210);
+}
+
+.ProductCardDetail img {
+  max-width: 100%;
+  height: auto;
+}
+
 .ProductCardDetail img {
   margin-bottom: 0.5rem;
   max-width: 100%;
   height: auto;
-  transition: transform 0.3s ease; 
+  transition: transform 0.3s ease;
 }
 
 .ProductCardDetail:hover img {
   transform: scale(1.11);
   box-shadow: 0 0 10px rgba(41, 40, 40, 0.3);
-  
 }
-  
-.item-card{
+
+.item-card {
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .ProductCardContainer {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .ProductCardDetail {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
 }

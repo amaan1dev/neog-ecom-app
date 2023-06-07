@@ -1,0 +1,14 @@
+.wishlist-container{
+
+    margin-top: 4rem;
+    display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cart-container{
+  margin-top: 4rem;
+  display: flex;
+flex-direction: column;
+min-height: 100vh;
+}

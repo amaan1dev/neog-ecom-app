@@ -5,8 +5,8 @@ import "../Components/ComponentsStyleSheets/Nav.css"
 export const Nav = () => {
   return (
     <nav>
-      <NavLink to="/" className="logo">
-        Logo
+      <NavLink to="/" className="logo" style={{ marginLeft: '1px' }}>
+      <img style={{ width: '50%', height: 'auto' }} src="https://inkicks.de/media/image/1a/64/d6/inkicks_logo.png" alt="Logo" />
       </NavLink>
       <NavLink to="/" className="nav-link">
         Home
@@ -22,9 +22,6 @@ export const Nav = () => {
       </NavLink>
       <NavLink to="/account" className="nav-link">
         Login/Logout
-      </NavLink>
-      <NavLink to="/mockman" className="nav-link">
-        Mockman
       </NavLink>
     </nav>
   );

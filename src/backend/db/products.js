@@ -183,7 +183,7 @@ export const products = [
     title: "CONVERSE CHUCK 70 OX",
     seller: "Converse",
     price: "4,799.00",
-    categoryName: "Converse",
+    categoryName: "Performance",
     rating: "5"
   },
   {
@@ -192,7 +192,7 @@ export const products = [
     title: "NRGY PEACH",
     seller: "Puma",
     price: "4,199.00",
-    categoryName: "Converse",
+    categoryName: "Performance",
     rating: "2"
   }
 ];
