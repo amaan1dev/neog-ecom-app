@@ -11,7 +11,7 @@ export const Products = () => {
   return (
     <>
       <Nav />
-      <FilterProducts />
+      {/* <FilterProducts /> */}
       <ProductCard />
       <Footer />
     </>

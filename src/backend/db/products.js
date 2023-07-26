@@ -24,7 +24,7 @@ export const products = [
     seller: "Vans",
     price: "5,999.00",
     categoryName: "Low-Top",
-    rating: "3"
+    rating: "3" 
   },
   {
     image:
